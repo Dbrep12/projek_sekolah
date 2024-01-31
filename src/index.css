@@ -1,0 +1,23 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    min-width: 300px;
+}
+
+html,
+body,
+#root,
+.container,
+.center-page{
+    height: 100%;
+}
+.center-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
